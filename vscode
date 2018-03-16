@@ -1,0 +1,44 @@
+{
+  "workbench.colorTheme": "Monokai",
+  "editor.wordWrap": "on",
+  //    "editor.renderWhitespace": "boundary",
+  "workbench.iconTheme": "vs-seti",
+  "window.zoomLevel": -1,
+  "editor.tabSize": 2,
+  "editor.fontSize": 14,
+  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.lineHeight": 1.2,
+  "editor.parameterHints": false,
+  "terminal.integrated.fontFamily": "'SourceCodePro+Powerline+Awesome Regular'",
+  "javascript.validate.enable": false,
+  //"editor.fontFamily": " 'Inconsolata Awesome', 'Menlo', 'Droid Sans Mono', 'Courier New', monospace, 'Droid Sans Fallback'",
+  //"editor.letterSpacing": 0.75,
+  // "editor.fontWeight": "bold",
+  //"editor.fontSize": 15,
+  "workbench.colorCustomizations": {
+    "editor.background": "#242133",
+    "editorGutter.background": "#242133",
+    "editorBracketMatch.background": "#F92672",
+    "terminal.background": "#242133",
+    "terminalGutter.background": "#242133",
+    //"badge.foreground": "#069DAC",
+    "badge.background": "#069DAC",
+    "activityBarBadge.background": "#007ACC",
+    "terminal.ansiBrightCyan": "#66d9ef"
+  },
+  "workbench.startupEditor": "newUntitledFile",
+  "files.autoSave": "off",
+  // Format a file on save. A formatter must be available, the file must not be auto-saved, and editor must not be shutting down.
+  //"editor.formatOnSave": true,
+  // Enable/disable default JavaScript formatter (For Prettier)
+  // Set the default
+  "editor.formatOnSave": false,
+  // Enable per-language
+  //"[javascript]": {
+  //  "editor.formatOnSave": true
+  //},
+  // Use 'prettier-eslint' instead of 'prettier'. Other settings will only be fallbacks in case they could not be inferred from eslint rules.
+  "prettier.singleQuote": true,
+  "prettier.ignorePath": ".gitignore",
+  "prettier.eslintIntegration": true
+}
